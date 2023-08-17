@@ -117,6 +117,7 @@ Update the details of an existing employee with the JSON request body:
         }
     ]
 }
+```
 
 Delete an Employee
 ```bash
@@ -128,7 +129,8 @@ Deletes an existing employee.
 ## Note
 
 1. Replace `your-mongodb-connection-string` in the .env file with your actual MongoDB connection string.
-2.For all endpoints requiring an `id`, replace `:id` with the actual ID of the cafe or employee.
+2. For all endpoints requiring an `id`, replace `:id` with the actual ID of the cafe or employee.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
